@@ -20,27 +20,23 @@ Build a voting system for deciding where to have lunch.
     - If it is after 11:00 then it is too late, vote can't be changed
 
 Each restaurant provides new menu each day.
-_______________________________________________________________________________________________
 
 Soultion and delivery bundles:
-
 A solution is implemented using Java and MS SQL Server.
-
 Deliveries:
-	Design documents.zip			Design documentation including ER diagram for RVM database (in original SQLPowerArchitect format and also printed out as a pdf file).
-	Source codes.zip: 				RMV sql and java source files to review and standalone reuse. Principal source files are:
-										Restaurant Menu Voter.sql					- SQL script to populate a MS SQL database by RMV tables and other objects. Also it populates Grade table by vote values and Report table by predefined reports. 
-										org\largecode\rmvoting\RMV_Database.java 	- RMV implementation
-										org\largecode\rmvoting\RMV_Exception.java 	- RMV-specific exception
-										utils\JSON_Utils.java						- RMV-specific utils for JSON serialization/deserealization
-										org\json\*.java								- 3-rd party JSOM library (see org.json);
-	apache-tomcat wtpwebapps.zip 	Apache Tomcat distribution example 				- a demonstrational and testing web application for RMV (also includes a dedicated ReadMe.txt file and URL example).
-	Eclipse projects.zip			Eclipse EE Mars projects being used for RMV testing purposes: 
-										project "Restaurant Menu Voter" is a command-line application dedicated for unit testing purposes;
-										project "RestaurantMenuVoter_JSP_test" is a web application used for unit and application testing purposes.
-
+•	Design documents.zip	Design documentation including ER diagram for RVM database (in original SQLPowerArchitect format and also printed out as a pdf file).
+•	Source codes.zip		RMV sql and java source files to review and standalone reuse. Principal source files are:
+	o	Restaurant Menu Voter.sql					- SQL script to populate a MS SQL database by RMV tables and other objects. Also it populates Grade table by vote values and Report table by predefined reports. 
+	o	org\largecode\rmvoting\RMV_Database.java 	- RMV implementation
+	o	org\largecode\rmvoting\RMV_Exception.java 	- RMV-specific exception
+	o	utils\JSON_Utils.java				- RMV-specific utils for JSON serialization/deserealization
+	o	org\json\*.java					- 3-rd party JSOM library (see org.json);
+•	apache-tomcat wtpwebapps.zip 	Apache Tomcat distribution example - a demonstrational and testing web application for RMV (also includes a dedicated ReadMe.txt file and URL example).
+•	Eclipse projects.zip		Eclipse EE Mars projects being used for RMV testing purposes: 
+	o	project "Restaurant Menu Voter" is a command-line application dedicated for unit testing purposes;
+	o	project "RestaurantMenuVoter_JSP_test" is a web application used for unit and application testing purposes.
 _______________________________________________________________________________________________
-
 In case on any questions please contact Evgeny Lyulkov at
 evgeny.lyulkov@gmail.com
-Skype: Evgeny.Lyulkov 
+Skype: Evgeny.Lyulkov
+
